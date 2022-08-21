@@ -1,0 +1,123 @@
+@media only screen and (max-width: 909px) and (min-width: 10px){
+.product-container{
+    flex-direction: column;
+}
+.contact-flex{
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 1010px) and (min-width: 910px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .foot-box1,.foot-box2,.foot-box3{
+        width: 60%;
+        margin-top: 5em;
+    }
+}
+@media only screen and (max-width: 909px) and (min-width: 10px){
+    .footer-container{
+        flex-direction: column;
+    }
+    .foot-box1,.foot-box2,.foot-box3{
+        width: 100%;
+        margin-top: 5em;
+        text-align: center;
+    }
+    .product-offers{
+        flex-direction: column;
+    }
+    .product-box{
+        width: 100%;
+    }
+    .front-img{
+        height: 100vh;
+    }
+    
+    .burger{
+        position: ;
+        display: block;
+    }
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+        height: px;
+        border:x solid red;
+        padding-top:8px;
+    }
+    .logo-img{
+        max-width: 150px;
+    }
+    .menu{
+        display: none;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5em;
+    }
+    .menu-ul{
+        flex-direction: column;
+    }
+    .menu-li{
+        margin-left: 0em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .cart{
+        display: none;
+        border: px solid black;
+        text-align: center;
+        width: 100%;
+    }
+    .fashion-txt{
+        width: 90%;
+        margin-top: 150px;
+    }
+    .fashion-txt{
+        padding: 0em;
+    }
+    .fashion-categories{
+        overflow: hidden;
+        margin-top: 150px;
+    }
+    
+    .fashion-categories img:hover{
+        transform: scale(1.1);
+    }
+
+    .contact-container{
+        height: 100%;
+        padding-bottom: 3em;
+    }
+    .contect-flex{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .contact-loc {
+        width: 100%;
+    }
+    .contact-box{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 490px){
+    .logo{
+        width: 100%;
+    }
+    .logo-img{
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 490px){
+    
+}
+
+

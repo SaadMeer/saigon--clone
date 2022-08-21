@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color:white;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    border: px solid black;
+}
+.shadow{
+    width: 15%;
+    height: px;
+}
+.logo{
+    width: 30%;
+    height: ;
+    border: px solid green;
+}
+.logo-img{
+    width: 32%;
+    height: auto;
+    margin-left: 6em;
+    padding:.5em 0;
+}
+.burger{
+    display: none;
+    width: 48px;
+    margin-top: -3px;
+    cursor: pointer;
+    margin-left: 0em;
+    border: 1px solid rgba(165, 164, 164, 0.377);
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.line{
+    height: 2px;
+    width:25px;
+    margin: 5px 0px;
+    background-color: rgb(165, 164, 164);
+}
+
+.menu{
+    width: 35%;
+    border: px solid black;
+}
+.menu-ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.menu-li{
+    margin-left: 1.6em;
+    line-height: ;
+}
+.menu-a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700!important;
+}
+.cart{
+    width: 12%;
+    display: ;
+}
+
+.front-container{
+    margin-top: 85px;
+    width: 100%;
+}
+
+.front-img{
+    width: 100%;
+    height: 100vh;
+}
+.front-img1{
+    width: 100%;
+    height: 100vh;
+}
+
+/* product */
+
+.product-container{
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+    background-color: #ebedef;
+    
+}
+
+.arrow-gif{
+    width: 100%;
+    text-align: center;
+}
+.arrow{
+    width: 10%;
+}
+.arrow-gif h1{
+    color: rgb(72, 41, 178);
+}
+
+.product-offers{
+    width: 80%;
+    border: px solid black;
+    padding-bottom: 10em;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-box{
+    width: 32%;
+    border: px solid red;
+    overflow: hidden;
+    margin-top: 2em;
+}
+.product-box h3{
+    text-align: center;
+    color: rgb(72, 41, 178);
+    margin-top: 1em;
+}
+.product-img{
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(36, 40, 44);
+}
+
+.footer-container{
+    width: 90%;
+    margin: auto;
+    padding: 5em 0;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.foot-box1{
+    width: 35%;
+}
+.foot-box1 img{
+    width: 100%;
+}
+.p1{
+    color: white;
+    text-align: center;
+}
+.foot-box2{
+    width: 25%;
+}
+.foot-ul{
+    list-style-type: none;
+}
+.foot-li{
+    align-items: baseline;
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: .3em;
+}
+.foot-li1{
+    margin-top: 2em;
+}
+.foot-icon{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.foot-box3{
+    width: 25%;
+}
+
+.foot-box3 h3{
+    color: white;
+    font-size: 1.5rem;
+}
+.foot-box3 p{
+    color: white;
+    margin-top: 1em;
+}
+.foot-box3 ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1em;
+}
+.foot-box3 img{
+    width: 30%;
+}
+
+.logo-foot{
+    width: 28%;
+    border-radius: 30%;
+    margin-top: 2em;
+}
+
+/* 
+New page aboutus
+*/
+
+.about-fashion{
+    margin-top: 85px;
+    width: 100%;
+    background-color: #ebedef;
+    padding-bottom: 5em;
+}
+.fashion-txt{
+    width: 35%;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+}
+.fashion-txt h2{
+    color: rgb(95, 93, 93);
+    font-size: 1.75rem;
+    margin-bottom: 1.5em;
+}
+.fashion-txt h4{
+    color: rgb(121, 119, 119);
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+/* 
+New page Categories
+*/
+
+.fashion-categories{
+    margin-top: 100px;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+}
+.fashion-categories img{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    transition: .5s ease-in-out;
+    border-style: none;
+}
+.fashion-categories img:hover{
+    transform: scale(1.1);
+}
+
+
+/* 
+
+New page contect
+
+ */
+
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ebedef;
+    margin-top: 100px;
+    
+}
+.contect-flex{
+    margin-top: 100px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border: px solid red;
+}
+.conact-box{
+    width: 30%;
+}
+.cont-ul{
+    list-style-type: none;
+}
+.cont-li{
+    text-align: center;
+    color:rgb(121, 119, 119);
+    font-size: 1.1rem;
+}
+.cont-li:not(:first-child){
+    margin-top: .5em;
+}
+.cont-icon{
+    color: gray;
+}
+
+.contact-loc{
+    width: 30%;
+}
+
+.contact-loc img{
+    width:100%;
+}
